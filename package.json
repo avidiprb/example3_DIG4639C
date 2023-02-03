@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "example3_dig4639c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avidiprb/example3_DIG4639C.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avidiprb/example3_DIG4639C/issues"
+  },
+  "homepage": "https://github.com/avidiprb/example3_DIG4639C#readme"
+
+}
