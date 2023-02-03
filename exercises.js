@@ -26,7 +26,36 @@ while ( test(value) )
 
 }
     
+export function everyLoop (array, test) {
+
+var check = false;
+
+for (let element of array)
+{
+   check = (test (element));
+if (check)
+{
+continue;
+}
+else
+break;
+}
+return check;
+}
 
 
+export function everySome (array, test) {
+
+    var check = false;
+    
+    for (let element of array)
+    {
+       check = (test (element));
+    if (check) {
+    break;
+    }
+    }
+    return check;
+    }
 
 
